@@ -3,8 +3,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ad3us&label=Profile%20views&color=0e75b6&style=flat" alt="ad3us" /> </p>
 
-- 🔭 I’m currently working on **School managament system**
+- 🔭 I’m currently working on **Online-Store Management System**
 
-- 🌱 I’m currently learning **React, Angular, Vue**
+- 🌱 I’m currently learning **Figma, Python, Django**
 
 - 📫 How to reach me **doloreshaze145@gmail.com**
