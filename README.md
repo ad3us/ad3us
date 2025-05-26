@@ -1,8 +1,6 @@
 <h1 align="center">I'm Yasin Dovletov</h1>
 <h3 align="center">A passionate frontend developer from Turkmenistan</h3>
 
-<hr>
-
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=ad3us&label=Profile%20views&color=0e75b6&style=flat" alt="ad3us" /> </p>
 
 - 🔭 I’m currently working on my **Blog**
