@@ -19,14 +19,6 @@
 
 <hr>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ad3us&show_icons=true&locale=en&layout=compact" alt="ad3us" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ad3us&show_icons=true&locale=en" alt="ad3us" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ad3us&" alt="ad3us" /></p>
-
-<hr>
-
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ad3us" alt="ad3us" /></a> </p>
 
 <h3 align="center">Languages and Tools:</h3>
