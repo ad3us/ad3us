@@ -9,7 +9,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/ad3us](https://github.com/ad3us)
 
-- 📝 I regularly write articles on [https://github.io/badcoder/](https://github.io/badcoder/)
+- 📝 I regularly write articles on [https://ad3us.github.io/ad3us/](https://ad3us.github.io/ad3us/)
 
 - 📫 How to reach me **yasin.dovletov@zohomail.com**
 
