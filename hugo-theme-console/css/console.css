@@ -32,7 +32,6 @@
 
 :root {
     --global-font-size: 16px;
-    --global-font-color: #444;
     --mono-font-stack: Terminus, Roboto Mono, Menlo, Monaco, Lucida Console,
         Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
         Courier New, monospace, serif;
@@ -42,42 +41,38 @@
     --global-line-height: 1.6em;
     --page-width: 50em;
     --display-h1-decoration: 1;
-}
 
-@media (prefers-color-scheme: dark) {
-    :root {
-	--background-color: #000000;
-	--page-width: 50em;
-	--font-color: #e8e9ed;
-	--invert-font-color: #222225;
-	--secondary-color: #a3abba;
-	--tertiary-color: #a3abba;
-	--primary-color: #00af00;
-	--error-color: #ff3c74;
-	--progress-bar-background: #3f3f44;
-	--progress-bar-fill: #62c4ff;
-	--code-bg-color: #3f3f44;
-    }
+    /* Tokyo Night Colors */
+    --background-color: #1a1b26; /* Dark Background */
+    --font-color: #a9b1d6; /* Default Text Color */
+    --invert-font-color: #1a1b26; /* Inverted Text for Contrast */
+    --primary-color: #7aa2f7; /* Blue */
+    --secondary-color: #bb9af7; /* Purple */
+    --tertiary-color: #9ece6a; /* Green */
+    --error-color: #f7768e; /* Red */
+    --progress-bar-background: #24283b; /* Slightly Lighter Background */
+    --progress-bar-fill: #7dcfff; /* Cyan */
+    --code-bg-color: #24283b; /* Code Background */
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-	--background-color:#fff;
-	--font-color:#151515;
-	--invert-font-color:#fff;
-	--primary-color:#00af00;
-	--secondary-color:#727578;
-	--error-color:#d20962;
-	--progress-bar-background:#727578;
-	--progress-bar-fill:#151515;
-	--code-bg-color:#e8eff2;
+        --background-color: #eaeaea; /* Light Background */
+        --font-color: #151515; /* Dark Text */
+        --invert-font-color: #fff; /* White */
+        --primary-color: #7aa2f7; /* Blue */
+        --secondary-color: #bb9af7; /* Purple */
+        --tertiary-color: #9ece6a; /* Green */
+        --error-color: #f7768e; /* Red */
+        --progress-bar-background: #d3d3d3; /* Light Gray */
+        --progress-bar-fill: #151515; /* Dark Text */
+        --code-bg-color: #e8eff2; /* Light Code Background */
     }
 }
 
 @media only screen and (max-width: 850px) {
     :root {
         --global-font-size: 14px;
-        --global-font-color: #444;
         --global-line-height: 1.6em;
         --page-width: 70em;
     }
@@ -90,7 +85,7 @@
 }
 
 .box-masonry .box-masonry-image {
-    background: #fff;
+    background: var(--background-color); /* Updated to match theme */
 }
 
 .box-masonry,
@@ -106,6 +101,7 @@ body {
     font-family: var(--font-stack);
     font-size: var(--global-font-size);
     background-color: var(--background-color);
+    color: var(--font-color); /* Updated text color */
     margin-bottom: 75px;
 }
 
@@ -123,6 +119,7 @@ h6,
 .h6 {
     font-family: var(--font-stack);
     clear: both;
+    color: var(--primary-color); /* Headings in Tokyo Night Blue */
 }
 
 h1 {
@@ -131,13 +128,13 @@ h1 {
 
 .content-column-content p,
 .content-column-content li {
-    color: #666;
+    color: var(--font-color); /* Updated text color */
 }
 
 .btn-ghost {
-    color: #666;
+    color: var(--font-color); /* Updated text color */
     background-color: transparent;
-    border-color: #333;
+    border-color: var(--secondary-color); /* Border in Tokyo Night Purple */
     font-weight: 400;
     font-family: var(--font-stack);
     padding: 6px 12px;
@@ -149,12 +146,12 @@ h1 {
 }
 
 .content-column-content .command {
-    color: #aaa;
+    color: var(--tertiary-color); /* Commands in Tokyo Night Green */
 }
 
 p.social a {
     margin: 0 0 10px 0;
-    color: #fff;
+    color: var(--font-color); /* Updated text color */
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -163,7 +160,6 @@ p.social a {
     font-size: 25px;
     text-align: center;
     vertical-align: bottom;
-    color: #999999;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -171,6 +167,7 @@ p.social a {
 
 .active a {
     text-decoration: underline;
+    color: var(--primary-color); /* Active links in Tokyo Night Blue */
 }
 
 strong {
@@ -196,8 +193,8 @@ figure {
     clear: both;
     margin-top: 100px;
     padding-top: 10px;
-    border-top: 1px solid var(--secondary-color);
-    color: #fff;
+    border-top: 1px solid var(--secondary-color); /* Footer border in Tokyo Night Purple */
+    color: var(--font-color); /* Updated text color */
 }
 
 .image-grid {

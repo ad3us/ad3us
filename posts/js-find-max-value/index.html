@@ -66,23 +66,23 @@ Feb. 1, 2025
 <hr>
 <h2 id="1st-method">1st method</h2>
 <p>I tried to implement this in JavaScript. And that&rsquo;s what happened:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>;
-<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
-<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">c</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#8be9fd;font-style:italic">let</span> a <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">2</span>;
+<span style="color:#8be9fd;font-style:italic">let</span> b <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">3</span>;
+<span style="color:#8be9fd;font-style:italic">let</span> c <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">4</span>;
 
-<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">a</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">b</span>) {
-	<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">a</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">c</span>) {
-		<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">a</span>, <span style="color:#e6db74">&#34;is the biggest number!&#34;</span>)
-	} <span style="color:#66d9ef">else</span> {
-		<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">c</span>, <span style="color:#e6db74">&#34;is the biggest number!&#34;</span>)
+<span style="color:#ff79c6">if</span> (a <span style="color:#ff79c6">&gt;</span> b) {
+	<span style="color:#ff79c6">if</span> (a <span style="color:#ff79c6">&gt;</span> c) {
+		console.log(a, <span style="color:#f1fa8c">&#34;is the biggest number!&#34;</span>)
+	} <span style="color:#ff79c6">else</span> {
+		console.log(c, <span style="color:#f1fa8c">&#34;is the biggest number!&#34;</span>)
 	}
 } 
 
-<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">b</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">a</span>) {
-	<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">b</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">c</span>) {
-		<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">b</span>, <span style="color:#e6db74">&#34;is the biggest number!&#34;</span>)
-	} <span style="color:#66d9ef">else</span> {
-		<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">c</span>, <span style="color:#e6db74">&#34;is the biggest number!&#34;</span>)
+<span style="color:#ff79c6">if</span> (b <span style="color:#ff79c6">&gt;</span> a) {
+	<span style="color:#ff79c6">if</span> (b <span style="color:#ff79c6">&gt;</span> c) {
+		console.log(b, <span style="color:#f1fa8c">&#34;is the biggest number!&#34;</span>)
+	} <span style="color:#ff79c6">else</span> {
+		console.log(c, <span style="color:#f1fa8c">&#34;is the biggest number!&#34;</span>)
 	}
 } 
 </code></pre></div>
@@ -93,15 +93,15 @@ Feb. 1, 2025
 <hr>
 <h3 id="lets-analyze-what-i-did-step-by-step">Let&rsquo;s analyze what I did step by step:</h3>
 <p>First, we assigning values to variables:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>;
-<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
-<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">c</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>;</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#8be9fd;font-style:italic">let</span> a <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">2</span>;
+<span style="color:#8be9fd;font-style:italic">let</span> b <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">3</span>;
+<span style="color:#8be9fd;font-style:italic">let</span> c <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">4</span>;</code></pre></div>
 <p>Then, in this conditional block:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">a</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">b</span>) {
-	<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">a</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">c</span>) {
-		<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">a</span>, <span style="color:#e6db74">&#34;is the biggest number!&#34;</span>)
-	} <span style="color:#66d9ef">else</span> {
-		<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">c</span>, <span style="color:#e6db74">&#34;is the biggest number!&#34;</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#ff79c6">if</span> (a <span style="color:#ff79c6">&gt;</span> b) {
+	<span style="color:#ff79c6">if</span> (a <span style="color:#ff79c6">&gt;</span> c) {
+		console.log(a, <span style="color:#f1fa8c">&#34;is the biggest number!&#34;</span>)
+	} <span style="color:#ff79c6">else</span> {
+		console.log(c, <span style="color:#f1fa8c">&#34;is the biggest number!&#34;</span>)
 	}
 } 
 </code></pre></div>
@@ -114,11 +114,11 @@ Feb. 1, 2025
 </li>
 </ul>
 <p>In the second conditional block:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">b</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">a</span>) {
-	<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">b</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">c</span>) {
-		<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">b</span>, <span style="color:#e6db74">&#34;is the biggest number!&#34;</span>)
-	} <span style="color:#66d9ef">else</span> {
-		<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">c</span>, <span style="color:#e6db74">&#34;is the biggest number!&#34;</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#ff79c6">if</span> (b <span style="color:#ff79c6">&gt;</span> a) {
+	<span style="color:#ff79c6">if</span> (b <span style="color:#ff79c6">&gt;</span> c) {
+		console.log(b, <span style="color:#f1fa8c">&#34;is the biggest number!&#34;</span>)
+	} <span style="color:#ff79c6">else</span> {
+		console.log(c, <span style="color:#f1fa8c">&#34;is the biggest number!&#34;</span>)
 	}
 } 
 </code></pre></div>
@@ -131,7 +131,7 @@ Feb. 1, 2025
 </li>
 </ul>
 <p>As a result, the else block is executed:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">c</span>, <span style="color:#e6db74">&#34;is the biggest number!&#34;</span>);</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">console.log(c, <span style="color:#f1fa8c">&#34;is the biggest number!&#34;</span>);</code></pre></div>
 
 
 
