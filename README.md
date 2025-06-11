@@ -1,11 +1,11 @@
 <h1 align="center">I'm Yasin Dovletov</h1>
-<h3 align="center">A passionate frontend developer from Turkmenistan</h3>
+<h3 align="center">Computer Science student from Turkmenistan</h3>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=ad3us&label=Profile%20views&color=0e75b6&style=flat" alt="ad3us" /> </p>
 
 - 🔭 I’m currently working on my **Blog**
 
-- 🌱 I’m currently learning **Lua**
+- 🌱 I’m currently learning **Lua** **Love2D**
 
 - 👨‍💻 All of my projects are available at [https://github.com/ad3us](https://github.com/ad3us)
 
