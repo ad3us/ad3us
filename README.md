@@ -3,9 +3,9 @@
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=ad3us&label=Profile%20views&color=0e75b6&style=flat" alt="ad3us" /> </p>
 
-- 🔭 I’m currently working on my **Blog**
+- 🔭 I’m currently working on my **Blog** and my **Dino Game**
 
-- 🌱 I’m currently learning **Lua** **Love2D**
+- 🌱 I’m currently learning **C**, **raylib**
 
 - 👨‍💻 All of my projects are available at [https://github.com/ad3us](https://github.com/ad3us)
 
