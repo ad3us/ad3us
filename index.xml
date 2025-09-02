@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ad3us</title>
-    <link>https://example.com/</link>
+    <link>https://ad3us.github.io/ad3us/</link>
     <description>Recent content on ad3us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Jul 2025 05:02:47 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Aug 2025 06:52:09 +0800</lastBuildDate><atom:link href="https://ad3us.github.io/ad3us/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Python With Boot.dev and Codewars</title>
+      <link>https://ad3us.github.io/ad3us/posts/mastering-python-with-codewars/</link>
+      <pubDate>Sun, 03 Aug 2025 06:52:09 +0800</pubDate>
+      
+      <guid>https://ad3us.github.io/ad3us/posts/mastering-python-with-codewars/</guid>
+      <description>Python: To-go Programming Language Recently i started to learn the Python programming language. You might say:&amp;ldquo;Ah, shit! Here we go again.&amp;rdquo;, but listen! Yes, it is annoying that everyone and everybody screams and yells that it is slow and unflexible language&amp;hellip; but! It&amp;rsquo;s still the best language for the beginners. Some of my friends recommended me to start with C, because it&amp;rsquo;s the primary language for CS, and i tried to learn it&amp;hellip; But, unfortunately i quit.</description>
+    </item>
+    
     <item>
       <title>Setting Up Game Maker Studio in Linux</title>
-      <link>https://example.com/posts/setting-up-game-maker-studio-in-linux/</link>
+      <link>https://ad3us.github.io/ad3us/posts/setting-up-game-maker-studio-in-linux/</link>
       <pubDate>Tue, 22 Jul 2025 05:02:47 +0800</pubDate>
       
-      <guid>https://example.com/posts/setting-up-game-maker-studio-in-linux/</guid>
+      <guid>https://ad3us.github.io/ad3us/posts/setting-up-game-maker-studio-in-linux/</guid>
       <description>Requirements If you also act first and then think, this short guide will help you figure out a couple problems when trying to launch a game in GameMaker Studio, namely this error:
 linuxdeploy  And besides this error, there may be an error with:
 Steam Runtime AppImage  These errors are caused by these non-installed tools. So lets fix it!
@@ -21,10 +30,10 @@ Steam Runtime AppImage  These errors are caused by these non-installed tools. So
     
     <item>
       <title>About me</title>
-      <link>https://example.com/about/</link>
+      <link>https://ad3us.github.io/ad3us/about/</link>
       <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://ad3us.github.io/ad3us/about/</guid>
       <description>Welcome to my corner of the web! 👋 I’m Yasin Dovletov, a driven computer science student at Xidian University and a passionate Junior Web-Developer on a mission to turn ideas into digital reality.
 As I navigate the dynamic world of technology, my academic journey at Xidian, a hub for innovation and cutting-edge research—fuels my curiosity for web development. Whether I’m diving into algorithms, crafting clean code, or exploring the latest frameworks, I thrive on bridging theoretical knowledge with practical, hands-on projects.</description>
     </item>
