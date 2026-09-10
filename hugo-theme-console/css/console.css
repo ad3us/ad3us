@@ -38,35 +38,35 @@
     --font-stack: Terminus, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono,
         DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
         serif;
-    --global-line-height: 1.6em;
+    --global-line-height: 1.7em;
     --page-width: 50em;
     --display-h1-decoration: 1;
 
-    /* Tokyo Night Colors */
-    --background-color: #1a1b26; /* Dark Background */
-    --font-color: #a9b1d6; /* Default Text Color */
-    --invert-font-color: #1a1b26; /* Inverted Text for Contrast */
-    --primary-color: #7aa2f7; /* Blue */
-    --secondary-color: #bb9af7; /* Purple */
-    --tertiary-color: #9ece6a; /* Green */
-    --error-color: #f7768e; /* Red */
-    --progress-bar-background: #24283b; /* Slightly Lighter Background */
-    --progress-bar-fill: #7dcfff; /* Cyan */
-    --code-bg-color: #24283b; /* Code Background */
+    /* Matrix Dark Color Scheme */
+    --background-color: #0d0208;        /* Almost black background */
+    --font-color: #00ff41;              /* Bright Matrix green */
+    --invert-font-color: #0d0208;       /* Black for inverted elements */
+    --primary-color: #00ff41;           /* Bright green for headings/links */
+    --secondary-color: #008f11;         /* Darker green for accents */
+    --tertiary-color: #39ff14;          /* Neon green */
+    --error-color: #ff006e;             /* Bright pink for errors */
+    --progress-bar-background: #1a1a1a; /* Dark grey */
+    --progress-bar-fill: #00ff41;       /* Matrix green */
+    --code-bg-color: #001a00;           /* Very dark green tint */
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --background-color: #eaeaea; /* Light Background */
-        --font-color: #151515; /* Dark Text */
-        --invert-font-color: #fff; /* White */
-        --primary-color: #7aa2f7; /* Blue */
-        --secondary-color: #bb9af7; /* Purple */
-        --tertiary-color: #9ece6a; /* Green */
-        --error-color: #f7768e; /* Red */
-        --progress-bar-background: #d3d3d3; /* Light Gray */
-        --progress-bar-fill: #151515; /* Dark Text */
-        --code-bg-color: #e8eff2; /* Light Code Background */
+        --background-color: #0d0208;
+        --font-color: #00ff41;
+        --invert-font-color: #0d0208;
+        --primary-color: #00ff41;
+        --secondary-color: #008f11;
+        --tertiary-color: #39ff14;
+        --error-color: #ff006e;
+        --progress-bar-background: #1a1a1a;
+        --progress-bar-fill: #00ff41;
+        --code-bg-color: #001a00;
     }
 }
 
@@ -102,7 +102,19 @@ body {
     font-size: var(--global-font-size);
     background-color: var(--background-color);
     color: var(--font-color); /* Updated text color */
-    margin-bottom: 75px;
+    /* Sticky footer: body fills at least the viewport, footer sinks to the bottom */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100dvh; /* accounts for mobile browser chrome */
+    margin-bottom: 0;
+}
+
+/* Wrapper holding the page content + footer, grows to eat the leftover height */
+.content-wrapper {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
 }
 
 h1,
@@ -119,7 +131,7 @@ h6,
 .h6 {
     font-family: var(--font-stack);
     clear: both;
-    color: var(--primary-color); /* Headings in Tokyo Night Blue */
+    color: var(--primary-color); /* Headings in green-teal */
 }
 
 h1 {
@@ -132,9 +144,9 @@ h1 {
 }
 
 .btn-ghost {
-    color: var(--font-color); /* Updated text color */
+    color: var(--font-color); /* Light sage green text */
     background-color: transparent;
-    border-color: var(--secondary-color); /* Border in Tokyo Night Purple */
+    border-color: var(--secondary-color); /* Border in medium teal */
     font-weight: 400;
     font-family: var(--font-stack);
     padding: 6px 12px;
@@ -146,7 +158,7 @@ h1 {
 }
 
 .content-column-content .command {
-    color: var(--tertiary-color); /* Commands in Tokyo Night Green */
+    color: var(--tertiary-color); /* Commands in light sage green */
 }
 
 p.social a {
@@ -167,7 +179,7 @@ p.social a {
 
 .active a {
     text-decoration: underline;
-    color: var(--primary-color); /* Active links in Tokyo Night Blue */
+    color: var(--primary-color); /* Active links in green-teal */
 }
 
 strong {
@@ -191,10 +203,13 @@ figure {
 
 .footer {
     clear: both;
-    margin-top: 100px;
-    padding-top: 10px;
-    border-top: 1px solid var(--secondary-color); /* Footer border in Tokyo Night Purple */
-    color: var(--font-color); /* Updated text color */
+    /* auto soaks up all leftover height, pinning the footer to the viewport
+       bottom on short pages and collapsing to 0 on long ones */
+    margin-top: auto;
+    padding-top: 24px; /* minimum breathing room above the footer */
+    padding-bottom: 12px;
+    border-top: 1px solid var(--secondary-color); /* Footer border in medium teal */
+    color: var(--font-color); /* Light sage green text */
 }
 
 .image-grid {
@@ -305,8 +320,8 @@ figure {
     }
 
     .footer {
-        margin-top: 50px;
-        padding-top: 5px;
+        padding-top: 16px;
+        padding-bottom: 10px;
     }
 }
 
