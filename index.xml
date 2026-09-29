@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ad3us</title>
+    <link>https://ad3us.github.io/ad3us/</link>
+    <description>Recent content on ad3us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Jul 2025 05:02:47 +0800</lastBuildDate>
+    <atom:link href="https://ad3us.github.io/ad3us/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Game Maker Studio in Linux</title>
+      <link>https://ad3us.github.io/ad3us/posts/setting-up-game-maker-studio-in-linux/</link>
+      <pubDate>Tue, 22 Jul 2025 05:02:47 +0800</pubDate>
+      <guid>https://ad3us.github.io/ad3us/posts/setting-up-game-maker-studio-in-linux/</guid>
+      <description>Requirements If you also act first and then think, this short guide will help you figure out a couple problems when trying to launch a game in GameMaker Studio, namely this error:&#xA;linuxdeploy And besides this error, there may be an error with:&#xA;Steam Runtime AppImage These errors are caused by these non-installed tools. So lets fix it!&#xA;Tools For Building The AppImage Packages All versions of GameMaker starting with the 2022.</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>https://ad3us.github.io/ad3us/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ad3us.github.io/ad3us/about/</guid>
+      <description>Hi! 👋 I’m Yasin Dovletov, a computer science student at Xidian University in Xi&amp;rsquo;an, China. I build CLI tools, tinker with game dev, and try to make sense of code without losing my mind. I’m an amateur, so expect half-baked ideas and beginner level posts.&#xA;Cheers!&#xA;My socials: Github - @ad3us Telegram - @hulumulush Email - Yasin Dovletov </description>
+    </item>
+  </channel>
+</rss>
